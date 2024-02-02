@@ -28,9 +28,9 @@ public class CourseTest {
     }
     
     //Test setter
-        @Test
+    @Test
     public void testSomeMethod2() {
-            assertEquals("Moaath", crs.getName());
+        assertEquals("Moaath", crs.getName());
     }
     
         @Test
@@ -45,8 +45,7 @@ public class CourseTest {
     
         @Test
     public void testSomeMethod5() {
-        Course cr2= new Course(12012, "Moaath", "CSC229");
-        
+        Course cr2= new Course (12012, "Moaath", "CSC229");
             assertNotNull(cr2);
     }
     
